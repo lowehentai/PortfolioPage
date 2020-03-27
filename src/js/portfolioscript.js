@@ -27,6 +27,7 @@ $(document).ready(function () {
             tagTitle = document.getElementById(id2);
         tagTitle.innerHTML = title;
     }
+
     autoRenameTag('title', 'tag_title');
     clickRenameTag('next', 'title', 'tag_title');
 
@@ -46,4 +47,18 @@ $(document).ready(function () {
             active = 0;
         }
     };
+    //links array
+    // var links = ["https://www.google.com", "https://www.youtube.com", "https://www.pornhub.com"],
+    //     variable = 0;
+
+    // document.getElementById('next').onclick = function () {
+    //     document.getElementById('next').setAttribute("href", links[variable]);
+    //     variable += 1;
+    //     console.log(variable + " plus variable +++");
+    // };
+    // document.getElementById('prew').onclick = function () {
+    //     document.getElementById('prew').setAttribute("href", links[variable]);
+    //     variable -= 1;
+    //     console.log(variable + " nimus variable ---");
+    // };
 });
